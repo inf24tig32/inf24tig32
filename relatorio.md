@@ -33,13 +33,13 @@ O site é composto pelas seguintes páginas:
 
 Abaixo apresentamos o wireframe das páginas principais do site, feito para planear a estrutura antes da implementação:
 
-![Wireframe do site](wireframe.png)
+![Wireframe do site](img/wireframe.png)
 
-## 5. Sitemap
+## Sitemap
 
 Representação gráfica do mapa de navegação do site:
 
-![Sitemap do site](Sitemap.png)
+![Sitemap do site](img/Sitemap.png)
 
 
 
