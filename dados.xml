@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<educacao>
+  <reforma>
+    <ano>1911</ano>
+    <nome>Reforma da Primeira República</nome>
+    <descricao>Criação de escolas primárias e laicas em todo o país.</descricao>
+  </reforma>
+  <reforma>
+    <ano>1926</ano>
+    <nome>Estado Novo</nome>
+    <descricao>Educação centrada nos valores nacionalistas e religiosos.</descricao>
+  </reforma>
+  <reforma>
+    <ano>1986</ano>
+    <nome>Lei de Bases do Sistema Educativo</nome>
+    <descricao>Modernização do sistema educativo português.</descricao>
+  </reforma>
+  <reforma>
+    <ano>2009</ano>
+    <nome>Alargamento da escolaridade obrigatória</nome>
+    <descricao>Passagem da escolaridade obrigatória até aos 18 anos.</descricao>
+  </reforma>
+</educacao>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Recursos</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+  <a href="index.html" class="logo-link">
+  <div class="logo-imagem">História da Educação</div>
+</a>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="periodos.html">Períodos Históricos</a></li>
+      <li><a href="personalidades.html">Personalidades</a></li>
+      <li><a href="recursos.html">Recursos</a></li>
+      <li><a href="creditos.html">Créditos</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <main>
+  <section>
+    <h2>Formulário de contacto</h2>
+    <p>Se tiveres dúvidas, sugestões ou quiseres contribuir com mais dados históricos, envia-nos uma mensagem:</p>
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Download de dados históricos</h2>
+    <p>Disponibilizamos um ficheiro no formato XML que contém informações resumidas sobre as principais reformas educativas em Portugal.</p>
+    <p>
+      <a href="dados.xml" download>
+        📥 Clique com o botão direito aqui e escolha “Guardar link como...” para descarregar o XML
+    </a>
+</p>
+
+  </section>
+
+  <section id="tabela-xml">
+    <h2>Reformas Educativas (carregadas via XML)</h2>
+    <p>Carrega os dados XML e visualiza a tabela gerada dinamicamente com JavaScript:</p>
+    <button onclick="carregarXML()">Carregar dados XML</button>
+    <div id="conteudo-xml"></div>
+  </section>
+</main>
+
+  <footer>
+    <p>&copy; 2025 inf24tig32 - História da Educação</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
